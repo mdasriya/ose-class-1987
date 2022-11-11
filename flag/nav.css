@@ -1,0 +1,281 @@
+#nav {
+    display: flex;
+width: 100%;
+    justify-content: space-around;
+    height: 50px;
+    align-items: center;
+    background-color: #2d2d2d;
+    color: aliceblue;
+}
+
+#box a {
+    text-decoration: none;
+    /* border-right: 2px solid grey; */
+    text-align: center;
+    cursor: pointer;
+}
+
+input {
+    border: none;
+    border: none;
+    border-radius: 67px;
+    padding: 8px;
+    width: 491px;
+    margin: 12px;
+
+}
+
+#nav div {
+    justify-content: space-around;
+    /* border: 2px solid black; */
+
+
+}
+
+#logo {
+  
+    /* border: 2px solid #fdfdfd; */
+    width: 138px;
+    padding: -3%;
+    height: 45px;
+    margin: 0%;
+    cursor: pointer;
+}
+
+#nav_box1 {
+    margin: 2px;
+    /* width: 62px; */
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+#box a {
+  
+    padding: 16px;
+  color: white;
+    cursor: pointer;
+    opacity: 1;
+    transition: opacity .8s ease;
+transition-duration: 0.8s;
+transition-timing-function: ease;
+transition-delay: 0s;
+transition-property: opacity;
+
+
+}
+#box>a:hover {
+ background-color: rgb(100, 104, 104);
+
+
+}
+
+
+#nav_box3 li {
+    padding: 12px;
+    display: inline;
+
+}
+#section2{
+    /* border: 2px solid blue; */
+   background-color: rgb(236, 20, 110);
+ height: 50px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+#section2box a{
+text-decoration: none;
+}
+/* #section2box{
+/* border: 1px solid blue; */
+
+
+.section2para{
+    /* border: 1px solid black; */
+    padding: 3px 13px;
+    padding-top: 4px;
+    border: 1px solid rgb(12, 12, 12);
+    font-size: 12px;
+    
+    }
+    .section2para:hover{
+    /* border: 1px solid black; */
+    opacity: 0.7;
+    
+    }
+/* // ------------------------------// */
+#middle{
+/* border: 1px solid green; */
+width: 200px;
+height: 100%;
+
+}
+#middle p{
+font-size: 15px;
+color: black;
+font-weight: bold;
+margin: 0;
+text-align: center;
+}
+p{
+color: black;
+}
+ /* social media section css start  */
+#Banner{
+/* border: 2px solid blue; */
+width: 100%;
+margin: auto;
+text-align: center;
+padding-top: 40px;
+}
+#Banner>img{
+width: 95%;
+height: 100%;
+margin: auto;
+
+}
+#socialMedia{
+/* border: 1px solid red; */
+height: 40px;
+margin-top: 0;
+background-color: black;
+}
+
+
+
+ /* bottom section is here  ----------------------------------------------*/
+#bottom{
+/* border: 1px solid blue; */
+display: flex;
+justify-content: space-around;
+}
+
+.bottomDiv>p{
+color: #666;
+/* font-size: 14px; */
+font-size: .870rem;
+font-family: futura-pt,sans-serif;
+letter-spacing: .4px;
+
+}
+i{
+cursor: pointer;
+} 
+p{
+cursor: pointer;
+}  
+
+/* ---------------------------- social Media */
+.bottomDiv p:hover{
+            color: blue;
+
+        }
+
+#bt {
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+    }
+
+    #so i {
+        margin-left: 42px;
+    }
+    #fb {
+       background-color: rgb(53, 129, 199);
+    }
+
+   #so i:hover {
+        /* border: 1px solid rgb(24, 0, 243); */
+        border-radius: 150px;
+
+   }
+    #social_img img {
+        margin-top: 0px;
+        margin-left: 27px;
+        width: 40px;
+    }
+    #indiaimg{
+        width: 8%;
+    }
+#bottomDiv>span{
+color: #666; 
+    } 
+    .sub_menu{
+        display: none;
+    }
+    #nav_box3 ul li:hover .sub_menu ul{
+display: block;
+position: absolute;
+    }
+
+    /* drop -------------------------------*/
+    #userborder{
+     
+       padding: 20px;
+    }
+    #userborder:hover{
+     cursor: pointer;
+    }
+
+#user{
+color: white;
+font-size: 16px;
+
+}
+#user1{
+color: black;
+margin-right: 2px;
+}
+
+#nav_box3{
+position: relative;
+display: inline-block;
+}
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #f1f1f1;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+
+.dropdown-content a ~ a {
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+}
+.dropdown-content a:hover {color: rgb(60, 60, 250);}
+#nav_box3:hover .dropdown-content { display: block; }
+.dropdown:hover #user {background-color: #3e8e41;
+}
+.dropdown-content+a{
+background-color: rgb(131, 119, 119);
+
+}
+.dropdown-content{
+/* border: 1px solid greenyellow; */
+margin-top: 12px;
+
+padding: 10px;
+padding-left: 3px;
+
+
+}
+#user1{
+margin-right: 13px;
+margin-left: 2px;
+}
+.droptext{
+font-size: 12px;
+}
+#bottom{
+    background-color: rgb(236, 234, 234);
+    margin-top: 10px;
+}
