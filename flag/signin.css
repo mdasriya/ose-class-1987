@@ -1,0 +1,114 @@
+body {
+    background-color: rgb(250, 249, 249);
+}
+
+#heading>h1 {
+    text-align: center;
+    margin-top: 100px;
+}
+
+#box {
+    /* border: 1px solid red; */
+    background-color: white;
+    width: 50%;
+    margin: auto;
+    height: auto;
+    text-align: center;
+    justify-content: space-around;
+}
+
+
+
+.topbutton {
+   border: 0px;
+    padding-left: 70px;
+    padding-right: 70px;
+    background-color: white;
+    font-size: 20px;
+
+}
+.topbutton:hover {
+    background-color: rgb(252, 250, 250);
+}
+span {
+
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+#Social {
+    width: 65%;
+    padding: 10px 17px;
+    display: flex;
+    justify-content: space-around;
+    /* border: 1px solid blue; */
+    text-align: center;
+    margin: auto;
+ 
+}
+
+#Social a {
+    color: rgb(48, 47, 47);
+
+    text-decoration: none;
+    font-size: 21px;
+}
+
+#Social a:hover {
+    opacity: 0.7;
+}
+
+#google {
+    border: 1px solid rgb(48, 47, 47);
+    padding: 5px 10px;
+    margin-left: 30px;
+}
+
+#google:hover {
+    opacity: 0.5;
+}
+
+#para {
+    border: 1px solid blue;
+    width: 80%;
+    margin: auto
+}
+
+input {
+    padding: 12px 70px;
+
+}
+
+#inputpart {
+    text-align: start;
+    /* border: 1px solid blue; */
+    width: 60%;
+    margin: auto;
+}
+
+#inputpart h5 {
+    font-size: 16px;
+}
+
+#joinbutton button {
+    margin-top: 20px;
+    padding: 15px 175px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(31, 30, 30);
+    color: white;
+    cursor: pointer;
+    margin-bottom: 30px;
+
+}
+#joinbutton button:hover {
+    background-color: rgb(57, 57, 59);
+  /* background-color: rgb(51, 51, 51); */
+}
+#termcodition{
+    text-align: center;
+    margin-top: 10px;
+}
+h5{
+    color: rgb(94, 93, 93);
+}
