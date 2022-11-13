@@ -92,7 +92,9 @@ display: flex;
 justify-content: space-around;
 align-items: center;
 }
-
+#lullu{
+    border: none;
+}
 #section2box a{
 text-decoration: none;
 }
