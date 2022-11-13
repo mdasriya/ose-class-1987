@@ -96,16 +96,17 @@ align-items: center;
 #section2box a{
 text-decoration: none;
 }
-/* #section2box{
-border: 1px solid blue;
 
-} */
 .section2para{
 /* border: 1px solid black; */
 padding: 3px 13px;
 padding-top: 4px;
 border: 1px solid rgb(12, 12, 12);
 font-size: 12px;
+
+}
+#woman a{
+text-decoration: none;
 
 }
 .section2para:hover{
@@ -461,6 +462,7 @@ hr{
      background-color: rgb(236, 234, 234);
      margin-top: 10px;
  }
+
 
 
 
