@@ -7,15 +7,26 @@ width: 100%;
     background-color: #2d2d2d;
     color: aliceblue;
 }
-#man{
-    background-color: #413f3f;
-}
 
 #box a {
     text-decoration: none;
     border-right: 2px solid grey;
     text-align: center;
     cursor: pointer;
+}
+#womanbox a{
+    border: 1px solid black;
+    text-decoration: none;
+    color: black;
+    padding: 5px 10px;
+    font-size: 12px;
+   
+}
+#womanbox:hover {
+    opacity: 0.7;
+}
+#womanbox a:hover{
+   opacity: 0.7;
 }
 
 
@@ -74,7 +85,7 @@ transition-property: opacity;
 #box>a:hover {
     background-color: #413f3f;
 }
-#men{
+#women{
     background-color: #413f3f;
 }
 
@@ -96,24 +107,23 @@ align-items: center;
 #section2box a{
 text-decoration: none;
 }
+/* #section2box{
+border: 1px solid blue;
 
+} */
 .section2para{
-/* border: 1px solid black; */
-padding: 3px 13px;
-padding-top: 4px;
-border: 1px solid rgb(12, 12, 12);
-font-size: 12px;
-
-}
-#woman a{
-text-decoration: none;
-
-}
-.section2para:hover{
-/* border: 1px solid black; */
-opacity: 0.7;
-
-}
+    /* border: 1px solid black; */
+    padding: 3px 13px;
+    padding-top: 4px;
+    border: 1px solid rgb(12, 12, 12);
+    font-size: 12px;
+    
+    }
+    .section2para:hover{
+    /* border: 1px solid black; */
+    opacity: 0.7;
+    
+    }
 
 #middle{
 /* border: 1px solid green; */
@@ -390,12 +400,8 @@ hr{
     opacity: 0.2;
 }
 #headingimg img:hover {
-    opacity: 0.5;
+    opacity: 0.3;
 }
-#headingimg img {
-    margin-top: 20px;
-}
-
     /* drop -------------------------------*/
     #userborder{
      
@@ -462,9 +468,6 @@ hr{
      background-color: rgb(236, 234, 234);
      margin-top: 10px;
  }
-
-
-
 
 
 
