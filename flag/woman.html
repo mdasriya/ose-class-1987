@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/flag/woman.css">
+    <title>woman </title>
+    
+</head>
+<body>
+    <!-- // -------------------------------------------------------------------- -->
+    <div id="nav">
+        <div id="nav_box1">
+            <a href="/flag/nav.html">
+
+                <img href="" id="logo" src="/flag/nav_img.png" alt="">
+            </a>
+            <div id="box">
+
+                <a id="women"href="/flag/ManSection.html">
+                    WOMEN
+                </a>
+                <a id="man"href="/flag/ManSection.html">
+                    MEN
+                </a>
+            </div>
+        </div>
+        <div id="nav_box2">
+            <input type="search" name="" id="" placeholder="Search for items and brands">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <!-- user section -->
+        <div id="nav_box3">
+          
+            <li id="userborder"> 
+             <i id="user"class="fa-solid fa-user"></i>
+             <div class="dropdown-content">
+              <a href="/flag/loginPage.html">Sign in | join</a> 
+          <a href="#"> <i id="user1"class="fa-regular fa-user"></i><span class="droptext">My Account</span> </a>
+       <a href="#"> <i id="user1" class="fa-solid fa-truck-fast"></i><span class="droptext">My Order</span> </a>
+      <a href="#"> <i id="user1"class="fa-solid fa-question"></i><span class="droptext">Return Information</span> </a>
+     <a href="#"> <i id="user1"class="fa-solid fa-comments"></i><span class="droptext">Contact preferences</span> </a>
+  
+ 
+               </div>
+               <!-- drop down section end -->
+          </li> 
+ 
+            <li><i class="fa-regular fa-heart"></i></li>     
+            <li><i class="fa-solid fa-bag-shopping"></i></li>     
+          
+            
+         </div>
+           <!-- end -->
+    </div>
+    <!-- pink top Banner -->
+   
+    <div id="section1">
+       <ul>
+        <li>Sale</li>
+        <li>New in</li>
+        <li>Clothing</li>
+        <li>Dresses</li>
+        <li>Shoes</li>
+        <li>Sportwear</li>
+        <li>Accessories</li>
+        <li>Autumn</li>
+        <li>Gifting</li>
+        <li>Topshop</li>
+        <li>Face + Body</li>
+        <li>Brands</li>
+        <li>Outlet</li>
+        <li>Marketplace</li>
+       </ul>
+        
+    </div>
+    <!-- pink section  -->
+    <div id="section2">
+       
+            <div id="womanbox"> 
+             <a href="/flag/woman.html">WOMAN</a>
+            </div>
+        
+        <div > 
+           <p class="section2para">MEN</p>
+        </div>
+       
+        
+    </div>
+    <!-- // -------------------------------------------------------------------- -->
+    
+    <div id="main">
+
+ 
+<div id="sortingbox">
+
+
+<select onChange="changeprice()" >
+    <option value="price low to high">price low to high</option>
+    <option value="price high to low">price high to low</option>
+</select>
+</div>
+<div id="container">
+<!-- // table append here -->
+</div>
+</div>
+</body>
+</html>
+
+<script>
+    let data  = [
+        {
+            "description" : "Love Moschino pool print t-shirt in blue",
+            "image" : "https://images.asos-media.com/products/love-moschino-pool-print-t-shirt-in-blue/201481860-1-opticalwhite?$n_240w$&wid=238&fit=constrain",
+            price : 300,
+        },
+        {
+            "description" : "steve madden stappy heeled",
+            "image" : "https://images.asos-media.com/products/steve-madden-strappy-heeled-sandals-in-lime/203352895-1-lime?$n_240w$&wid=238&fit=constrain",
+            price : 9000,
+        },
+        {
+            "description" : "Levi's mile high super skiny jeans in light wash blue",
+            "image" : "https://images.asos-media.com/products/levis-mile-high-super-skinny-jeans-in-light-wash-blue/202806764-1-howdareyou?$n_240w$&wid=238&fit=constrain",
+            price : 3000,
+        },
+        {
+            "description" : "DKNY Intimates sheers convertible sttrapless bra in gold",
+            "image" : "https://images.asos-media.com/products/dkny-intimates-sheers-convertible-strapless-bra-in-gold/203517786-1-i718y718i718ygold?$n_240w$&wid=238&fit=constrain",
+            price : 1200,
+        },
+        {
+            "description" : "Lacoste logo colour black polo shirt",
+            "image" : "https://images.asos-media.com/products/lacoste-logo-colour-block-polo-shirt/203321778-1-forainebordeaux?$n_240w$&wid=238&fit=constrain",
+            price : 7000,
+        },
+        {
+            "description" : "Liquorish a line lacedetails midi dress in mink",
+            "image" : "https://images.asos-media.com/products/liquorish-a-line-lace-detail-midi-dress-in-mink/202386174-1-mink?$n_240w$&wid=238&fit=constrain",
+            price : 1000,
+        },
+        {
+            "description" : "parision boyfriend jeans with knee rips in light blue",
+            "image" : "https://images.asos-media.com/products/parisian-boyfriend-jeans-with-knee-rips-in-light-blue/201951226-1-lightblue?$n_240w$&wid=238&fit=constrain",
+            price : 1500,
+        },
+        {
+            "description" : "Brave soul tally cropped cable knit jumper in navy",
+            "image" : "https://images.asos-media.com/products/brave-soul-tally-cropped-cable-knit-jumper-in-navy/202513081-1-navy?$n_240w$&wid=238&fit=constrain",
+            price : 3000,
+        },
+        {
+            "description" : "Replay crossbody bag with chainstrap in black",
+            "image" : "https://images.asos-media.com/products/replay-crossbody-bag-with-chain-strap-in-black/202739055-1-black?$n_240w$&wid=238&fit=constrain",
+            price : 7000,
+        },
+        {
+            "description" : "JDY charly v neck fine knie jumper in white",
+            "image" : "https://images.asos-media.com/products/jdy-charly-v-neck-fine-knit-jumper-in-white/202481594-1-clouddancer?$n_240w$&wid=238&fit=constrain",
+            price : 6000,
+        },
+    ]
+
+    
+
+   function displaycart(data) {
+
+  document.querySelector("#container").innerHTML = null;
+
+ data.forEach((elem)=>{
+    let div = document.createElement("div")
+
+    let image = document.createElement("img")
+    image.setAttribute("src",elem.image)
+
+    let des = document.createElement("p")
+    des.innerText = elem.description
+
+    let price = document.createElement("h4")
+    price.innerText = elem.price
+
+    let btn = document.createElement("button")
+    btn.innerText = "Add to cart"
+
+    div.append(image,des,price,btn)
+
+    document.querySelector("#container").append(div)
+
+ })
+   }
+   displaycart(data)
+
+
+    
+</script>
